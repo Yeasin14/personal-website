@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+p{
+    color: dimgray;
+}
+.header-area{
+    background-image: url(images/header-bg.png);
+    background-size: 100% 100%;
+    height: 1073px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.header-area .head-img{
+    margin-right: 177px;
+    margin-top: 257px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.header-area .head-img img{
+    width: 600px;
+   
+}
+.header-area .head-text{
+    margin-top: 432px;
+    margin-left: 310px;
+    
+}
+.header-area .head-text h3{
+    font-size: 25px;
+    margin-bottom: -31px;
+
+}
+.header-area .head-text h1{
+    color: #ec4c7a;
+    font-size: 50px;
+    font-weight: bold;
+ 
+}
+.header-area .head-text p{
+    color: dimgray;
+}
+.header-area .head-text .hire-link{
+    margin-top: 30px;
+}
+.header-area .head-text .hire-link a{
+    text-decoration: none;
+    background-image: linear-gradient(
+        45deg, lightSalmon, tomato);
+        cursor: pointer;
+        padding: 10px 20px;
+        color: #fff;
+        border-radius: 5px;
+       font-weight: 700; 
+}
+ 
+/*********head area style end*********/
+
+/************biography-area style start*************/
+
+
+.biography{
+    overflow: hidden;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 875px;
+    
+}
+.w-50{
+    width: 50%;
+}
+.biography .w-50{
+    float: left;
+
+}
+.biography .w-50 img{
+    width: 500px;
+    margin-top: 94px;
+    margin-left: 189px;
+}
+
+.biography .b-text{
+    margin-top: 275px;
+    margin-left: 80px;
+}
+
+.biography .b-text h2{
+    font-size: 35px;
+    font-weight: normal
+}
+.biography .b-text p{
+ margin-bottom: 37px;
+}
+
+.biography .b-text .cv-link a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: 700;
+}
+/************biography-area style end*************/
+
+
+/***************latest area start*******************/
+
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 640px;
+    overflow: hidden;
+}
+.latest-work h2{
+    text-align: center;
+    margin-top: 124px;
+    font-size: 30px;
+}
+.latest-work .latest-img{
+    width: 100%;
+    margin-left: 196px;
+    margin-top: 112px;
+}
+
+.latest-work .latest-img .img-1{
+    width: 25%;
+}
+.latest-work .latest-img .img-2{
+    width: 25%;
+}
+.latest-work .latest-img .img-3{
+    width: 25%;
+}
+/***************latest area end*******************/
+
+/*****************footer-area style start***************/
+.footer-area{
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-size: 100% 100%;
+    height: 700px;
+    overflow: hidden;
+
+}
+
+.footer-area h2{
+    font-size: 30px;
+    margin-top: 94px;
+}
+.footer-area>h3{
+    margin-top: 76px;
+    font-size: 25px;
+  
+}
+.footer-area>p{
+    margin-top: -16px;
+    color: orange;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+
+.footer-area>h5{
+    margin-bottom: 60px;
+}
+.footer-area .gmail-btn{
+    display: inline-block;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    border-radius: 7px;
+    
+    padding: 20px 117px;
+}
+.footer-area .gmail-btn h5{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.footer-area .gmail-btn h3{
+    margin: 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+.footer-area .copyright-area{
+    margin: 190px;
+}
+/*****************footer-area style end***************/
